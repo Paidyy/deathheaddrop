@@ -1,0 +1,9 @@
+# %player% - Killed Player
+# %killer% - Killer of the Player
+
+head_display_name: "%player%'s Skull"
+head_lore: "Killed by %killer%"
+
+# Messages
+no_permission: "&cYou do not have permission to use this command!"
+reload: "&7Reloaded the config"

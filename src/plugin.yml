@@ -1,0 +1,24 @@
+main: com.github.Paidyy.deathheaddrop.Main
+name: DeathHeadDrop
+version: 1.0
+author: Paidyy
+api-version: 1.13
+
+commands:
+  deathheaddrop:
+   description: DeathHeadDrop Info and Etc
+   permission: deathheaddrop.main
+   
+permissions:
+  deathheaddrop.main:
+   default: true
+  deathheaddrop.drop_head:
+   default: true
+  deathheaddrop.reload:
+   default: op
+  deathheaddrop.*:
+   default: op
+   children:
+    deathheaddrop.main: true
+    deathheaddrop.drop_head: true
+    deathheaddrop.reload: true

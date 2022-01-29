@@ -1,6 +1,7 @@
 # Non-PlaceholderAPI Placeholders
 #  %player% - Killed Player
 #  %killer% - Killer of the Player
+#  %item% - Display name of an item that player was killed with
 #  %day% - Day when the Player was killed
 #  %month% - Month when the Player was killed
 #  %year% - Year when the Player was killed
@@ -9,10 +10,11 @@
 #  %second% - Second when the Player was killed
 # PlaceholderAPI Placeholders: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders
 
-head_display_name: "%player%'s Skull"
+head_display_name: "&f%player%'s Skull"
 head_lore: 
- - "&7Killed by %killer%"
+ - "&7Killed by %killer% using &b%item%"
  - "&8On %day%/%month%/%year% %hour%:%minute%:%second%"
+item-hand: "&7his &bHand"
 
 no_permission: "&cYou do not have permission to use this command!"
-reload: "&7Reloaded the config"
+reload: "&7Reloaded the Config"

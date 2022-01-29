@@ -1,6 +1,6 @@
-main: com.github.Paidyy.deathheaddrop.Main
+main: com.github.Paidyy.deathheaddrop.Maino
 name: DeathHeadDrop
-version: 1.1
+version: 1.2
 author: Paidyy
 api-version: 1.13
 softdepend: [PlaceholderAPI]
